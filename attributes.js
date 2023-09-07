@@ -14,4 +14,4 @@ function updateDateTime() {
  updateDateTime();
         
  // Update date and time every minute
- setInterval(updateDateTime, 60000);
+ setInterval(updateDateTime, 1000);
