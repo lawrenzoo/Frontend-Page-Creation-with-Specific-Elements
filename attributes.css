@@ -8,7 +8,7 @@ body{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: 90vh;
     background-color: bisque;
 }
 .profile{
@@ -34,6 +34,11 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+}
+a{
+    padding: 15px ;
+    background-color: rgb(244, 106, 106);
+    border-radius: 5px;
 }
 @media(max-width:500px){
     body{
