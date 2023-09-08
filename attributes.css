@@ -26,7 +26,16 @@ body{
     /* justify-content: center; */
 }
 .container{
-    padding: 50px;
+    padding: 100px;
     background-color: white;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+@media(max-width:500px){
+    .container{
+        padding: 50px;
+        border-radius: 7px;
+    }
 }

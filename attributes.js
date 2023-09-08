@@ -5,9 +5,10 @@ function updateDateTime() {
     const currentDate = new Date();
     const dayOfWeek = daysOfWeek[currentDate.getUTCDay()];
     const currentTime = Date.now();
+    const FormatedUTC = currentTime.toLocaleString();
     
     document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent = `Current Day of the Week: ${dayOfWeek}`;
-    document.querySelector('[data-testid="currentUTCTime"]').textContent = `Current UTC Time: ${currentTime}`;
+    document.querySelector('[data-testid="currentUTCTime"]').textContent = `Current UTC Time: ${FormatedUTC}`;
 }
 
  // Update date and time on page load
