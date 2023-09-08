@@ -34,11 +34,16 @@ body{
     display: flex;
     flex-direction: column;
     align-items: center;
+    box-shadow: 3px 3px 3px rgb(97, 97, 97);
 }
 a{
     padding: 15px ;
     background-color: rgb(244, 106, 106);
     border-radius: 5px;
+    font-size: 20px;
+    font-weight: 600;
+    color: white;
+    text-decoration: none;
 }
 @media(max-width:500px){
     body{
