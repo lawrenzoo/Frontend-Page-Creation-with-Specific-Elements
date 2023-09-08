@@ -9,6 +9,6 @@ function updateDate() {
 
     
     document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent = dayOfWeek;
-    document.querySelector('[data-testid="currentUTCTime"]').textContent = `${FormatedUTC}Milliseconds`;
+    document.querySelector('[data-testid="currentUTCTime"]').textContent = `${currentTime}Milliseconds`;
 }
  updateDate();
