@@ -12,9 +12,10 @@ body{
     background-color: bisque;
 }
 .profile{
-    max-width: 200px;
+    max-width: 100px;
     height: auto;
     border-radius: 50%;
+    border: 4px solid red;
 }
 .slack-name, .profile-pic{
     display: flex;
@@ -35,11 +36,17 @@ body{
     align-items: center;
 }
 @media(max-width:500px){
+    body{
+        height: 90vh;
+    }
     .container{
         padding: 50px;
         border-radius: 7px;
     }
+    .slack-name{
+        font-size: 12px;
+    }
     p{
-        font-size: 15px;
+        font-size: 13px;
     }
 }
