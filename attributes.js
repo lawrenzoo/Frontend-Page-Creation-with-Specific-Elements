@@ -4,8 +4,8 @@ function updateDateTime() {
 
     const currentDate = new Date();
     const dayOfWeek = daysOfWeek[currentDate.getUTCDay()];
-    const currentTime = currentDate.toUTCString();
-    console.log(currentDate)
+    const currentTime = Date.now();
+    
     document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent = `Current Day of the Week: ${dayOfWeek}`;
     document.querySelector('[data-testid="currentUTCTime"]').textContent = `Current UTC Time: ${currentTime}`;
 }
