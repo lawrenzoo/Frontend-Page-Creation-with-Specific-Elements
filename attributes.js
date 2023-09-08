@@ -14,5 +14,5 @@ function updateDateTime() {
  // Update date and time on page load
  updateDateTime();
         
- // Update date and time every minute
- setInterval(updateDateTime, 1000);
+
+ 
