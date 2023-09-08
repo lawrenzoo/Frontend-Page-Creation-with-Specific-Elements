@@ -1,5 +1,32 @@
+*{
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: bisque;
+}
 #profile{
     max-width: 200px;
     height: auto;
     border-radius: 50%;
+}
+.slack-name, .profile-pic{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.track{
+    display: flex;
+    align-items: center;
+    /* justify-content: center; */
+}
+.container{
+    padding: 50px;
+    background-color: white;
+    border-radius: 10px;
 }

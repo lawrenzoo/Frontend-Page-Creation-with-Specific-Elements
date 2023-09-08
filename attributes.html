@@ -7,12 +7,24 @@
     <link rel="stylesheet" href="attributes.css">
 </head>
 <body>
-    <h1 data-testid="slackUserName">Chiagozie Mbanusi Lawrence</h1>
-    <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RNJ57AHF-d5c80600e484-512" alt="Chiagozie Mbanusi Lawrence" id="profile" data-testid="slackDisplayImage">
-    <p data-testid="currentDayOfTheWeek"></p>
-    <p data-testid="currentUTCTime"></p>
-    <p data-testid="myTrack">Frontend</p>
-    <a href="https://github.com/lawrenzoo/Frontend-Page-Creation-with-Specific-Elements" data-testid="githubURL">My GitHub Repository</a>
+    <div class="container">
+        <div class="slack-name">
+            <label>Slack Name:</label>
+            <h3 data-testid="slackUserName">Chiagozie Mbanusi Lawrence</h3>
+        </div>
+        <div class="profile-pic">
+            <label>Slack Display Picture:</label>
+            <img src="https://ca.slack-edge.com/T05FFAA91JP-U05RNJ57AHF-d5c80600e484-512" alt="Chiagozie Mbanusi Lawrence" id="profile" data-testid="slackDisplayImage">
+        </div> 
+        <p data-testid="currentDayOfTheWeek"></p>
+        <p data-testid="currentUTCTime"></p>
+        <div class="track">
+            <span>Track:</span>
+            <p data-testid="myTrack">Frontend</p>
+        </div>
+        <a href="https://github.com/lawrenzoo/Frontend-Page-Creation-with-Specific-Elements" data-testid="githubURL">My GitHub Repository</a>   
+    </div>
+
     <script src="attributes.js"></script>
 </body>
 </html>
