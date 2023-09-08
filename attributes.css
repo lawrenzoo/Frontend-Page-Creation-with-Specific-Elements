@@ -11,7 +11,7 @@ body{
     height: 100vh;
     background-color: bisque;
 }
-#profile{
+.profile{
     max-width: 200px;
     height: auto;
     border-radius: 50%;
