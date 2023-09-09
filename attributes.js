@@ -8,8 +8,8 @@ function updateDate() {
     const currentTime = Date.now();
 
     
-    document.querySelector('[data-testid="currentDayOfTheWeek"]').textContent = dayOfWeek;
-    document.querySelector('[data-testid="currentUTCTime"]').textContent = `${currentTime}Milliseconds`;
+    document.querySelector('#day').textContent = dayOfWeek;
+    document.querySelector('#utc').textContent = `${currentTime}Milliseconds`;
 }
  updateDate();
 
