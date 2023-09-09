@@ -12,3 +12,7 @@ function updateDate() {
     document.querySelector('[data-testid="currentUTCTime"]').textContent = `${currentTime}Milliseconds`;
 }
  updateDate();
+
+ setInterval(() => {
+    updateDate() 
+ }, 1000);
